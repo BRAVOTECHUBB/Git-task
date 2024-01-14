@@ -29,7 +29,8 @@ GitPull: git pull is a combination of two actions – git fetch followed by git 
 Usage: Use git pull when you want to both retrieve changes from the remote repository and immediately update your working directory and local branch to reflect those changes.
            command:  git pull origin master
     5. Git Cherry Pick and the command: git cherry-pick is a Git command that allows you to apply a specific commit from one branch to another. It's a way of picking a commit from one branch and applying it onto another branch. This can be useful in scenarios where you want to selectively apply changes without merging entire branches.
-        command: git cherry-pick <commit-hash>
+        
+command: git cherry-pick <commit-hash>
 
 
 
